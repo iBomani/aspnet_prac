@@ -39,4 +39,6 @@ app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Home}/{action=Index}/{id?}");
 
+
+//chapter 10-hez comment, hogy commitoljam, mert nincs plusz kod
 app.Run();
